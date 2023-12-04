@@ -20,16 +20,16 @@
               </div>
               <div class="blog-one__content">
                 <ul class="list-unstyled blog-one__meta">
-                  <li><nuxt-link :to="'/actus-details?post='+actu.id"><i class="far fa-user-circle"></i> {{actu.author}}</nuxt-link></li>
-                  <li><nuxt-link :to="'/actus-details?post='+actu.id"><i class="far fa-comments"></i> {{ actu.comments_count }} Comments</nuxt-link>
+                  <li><nuxt-link :to="'/actus_detail?post='+actu.id"><i class="far fa-user-circle"></i> {{actu.author}}</nuxt-link></li>
+                  <li><nuxt-link :to="'/actus_detail?post='+actu.id"><i class="far fa-comments"></i> {{ actu.comments_count }} Comments</nuxt-link>
                   </li>
                 </ul>
-                <h3><nuxt-link :to="'/actus-details?post='+actu.id">{{actu.title}}</nuxt-link></h3>
+                <h3><nuxt-link :to="'/actus_detail?post='+actu.id">{{actu.title}}</nuxt-link></h3>
                 <div class="blog_one_text">
                   <p>{{actu.content.substring(0, 100)}}</p>
                 </div>
                 <div class="read_more_btn">
-                  <nuxt-link :to="'/actus-details?post='+actu.id"><i class="fa fa-angle-right"></i>Lire Plus</nuxt-link>
+                  <nuxt-link :to="'/actus_detail?post='+actu.id"><i class="fa fa-angle-right"></i>Lire Plus</nuxt-link>
                 </div>
               </div>
             </div>

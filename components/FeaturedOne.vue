@@ -7,7 +7,9 @@
             <img src="/assets/images/resources/featured-leaf.png" alt=""><span>FINANCEMENT</span><img src="/assets/images/resources/featured-leaf.png" alt="">
           </div>
         </div>
-        <div style="overflow: scroll; display: block;">
+        <br>
+          <br>
+        <div style="overflow: scroll; width: 120%; height: auto; padding: 2em; display: block;">
           <img src="/assets/images/fina.png" style="height:auto; width: 120%;" alt="">
         </div>
         

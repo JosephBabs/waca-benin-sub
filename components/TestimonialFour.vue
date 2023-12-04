@@ -1,90 +1,35 @@
 <template>
-  <section class="bx-testimonial">
-    <div class="bx-testimonial_bg" style="background-image: url(/assets/images/testimonials/bx-testi-bg.png)">
-    </div>
+  <section class="bx-testimonial" id="indicateursDeResultats">
+    <div
+      class="bx-testimonial_bg"
+      style="background-image: url(/assets/images/testimonials/bx-testi-bg.png)"
+    ></div>
     <div class="container">
       <div class="block-title text-center">
-        <p>our team members</p>
-        <h3>meet the farmers</h3>
+        <p>Le Projet WACA au BENIN</p>
+        <h3>INDICATEURS DE RESULTATS</h3>
         <div class="leaf">
-          <img src="/assets/images/resources/leaf.png" alt="">
+          <img src="/assets/images/resources/leaf.png" alt="" />
         </div>
       </div>
       <div class="row">
         <div class="col-xl-12">
-          <div class="bx_testimonial_slider">
-            <div class="slider-pager">
-              <ul class="thumb-box list-unstyled text-center">
-                <li>
-                  <a class="active" data-slide-index="0" href="#">
-                    <div class="img-holder">
-                      <img src="/assets/images/testimonials/bx-testi-1.png" alt="">
-                      <div class="quote_testimonial">
-                        <img src="/assets/images/icon/quote_1.png" alt="">
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a data-slide-index="1" href="#">
-                    <div class="img-holder">
-                      <img src="/assets/images/testimonials/bx-testi-2.png" alt="">
-                      <div class="quote_testimonial">
-                        <img src="/assets/images/icon/quote_1.png" alt="">
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a data-slide-index="2" href="#">
-                    <div class="img-holder">
-                      <img src="/assets/images/testimonials/bx-testi-3.png" alt="">
-                      <div class="quote_testimonial">
-                        <img src="/assets/images/icon/quote_1.png" alt="">
-                      </div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="slider-content clearfix bxslider list-unstyled text-center">
-              <no-ssr>
-                <carousel :items="1" :autoplay="true" :nav="false" :dots="false">
-              <li>
-                <div class="bx_testimonial_single clearfix">
-                  <div class="bx_testimonial_text">
-                    <p>This is due to their excellent service, competitive pricing and customer
-                      support. It’s throughly refresing to get such a personal touch.</p>
-                    <h3>christine rose</h3>
-                    <h6>Customer</h6>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="bx_testimonial_single clearfix">
-                  <div class="bx_testimonial_text">
-                    <p>This is due to their excellent service, competitive pricing and customer
-                      support. It’s throughly refresing to get such a personal touch.</p>
-                    <h3>christine rose</h3>
-                    <h6>Customer</h6>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="bx_testimonial_single clearfix">
-                  <div class="bx_testimonial_text">
-                    <p>This is due to their excellent service, competitive pricing and customer
-                      support. It’s throughly refresing to get such a personal touch.</p>
-                    <h3>christine rose</h3>
-                    <h6>Customer</h6>
-                  </div>
-                </div>
-              </li>
-                </carousel>
-              </no-ssr>
-            </ul>
-          </div>
+          <table class="cart_table_box cart_table" border="1">
+            <thead>
+              
+              <tr style="font-weight: 800; text-align: center;">
+                <td style="padding: 1em;">SN.</td>
+                <td colspan="3" style="padding: 1em;">Description</td>
+                <td style="padding: 1em; background-color: #f3eea6;">Indcateur</td>
+              </tr>
+            </thead>
+            <thead>
+            <tr v-for="el in indics" :key="el.id" style="font-weight: 400; text-align: center;">
+              <td>{{ el.id }}</td>
+              <td colspan="3">{{ el.description }}</td>
+              <td style="padding: 5px; background-color: #f3eea6;">{{ el.indicateur }}</td>
+            </tr></thead>
+          </table>
         </div>
       </div>
     </div>
@@ -92,11 +37,81 @@
 </template>
 
 <script>
-    export default {
-        name: "TestimonialFour"
-    }
+export default {
+  name: "TestimonialFour",
+  data() {
+    return {
+      indics: [
+        {
+          id: "1",
+          titre: "Indicateur 1",
+          description: "Nombre de ménages des zones côtières ciblées moins exposés au risque d'érosion",
+          indicateur: "4.790"
+        },
+        {
+          id: "2",
+          titre: "Indicateur 1",
+          description: "Nombre de ménages des zones côtières ciblées moins exposés au risque d'inondation",
+          indicateur: "4.790"
+        },
+        {
+          id: "2.1",
+          titre: "Indicateurs clés intermédiaires :",
+          description: "Score sur les instruments de politique et cadre juridique (0-5)",
+          indicateur: "2"
+        },
+        {
+          id: "2.3",
+          titre: "",
+          description: "Nombre de plans d’aménagement et de gestion de la réserve de Biosphère et Aires Communautaires de Conservation de la Biodiversité élaborés / actualisés dans la zone du projet",
+          indicateur: "2"
+        },
+        {
+          id: "3.1",
+          titre: "",
+          description: "Superficie de la zone côtière ciblée avec des mesures de lutte contre les inondations",
+          indicateur: "5.200"
+        },
+        {
+          id: "3.4",
+          titre: "",
+          description: "Nombre d’écosystèmes naturels conservés et/ou restaurés",
+          indicateur: "1"
+        },
+        {
+          id: "3.5",
+          titre: "",
+          description: "Nombre de ménages affectés des communautés côtières ayant bénéficié du financement des AaGRs ou de projets sociaux ",
+          indicateur: "424"
+        },
+        {
+          id: "3.6",
+          titre: "",
+          description: "Nombre de plans d’aménagement et de gestion de la réserve de Biosphère et Aires Communautaires de Conservation de la Biodiversité mis en œuvre dans la zone du projet",
+          indicateur: "4"
+        },
+        {
+          id: "3.7",
+          titre: "",
+          description: "Nombre d’Activités alternatives Génératrices de Revenus financés dans la zone du projet",
+          indicateur: "207"
+        },
+        {
+          id: "3.7a",
+          titre: "",
+          description: "Pourcentage de femmes bénéficiaires des Activités alternatives Génératrices de Revenus financés dans la zone du projet",
+          indicateur: "80%"
+        },
+        {
+          id: "4",
+          titre: "",
+          description: "Pourcentage des bénéficiaires (individu) ciblés avec une note « Satisfait » ou plus, au sujet des interventions du projet",
+          indicateur: "55%"
+        }
+      ]
+    };
+  }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

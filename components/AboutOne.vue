@@ -1,5 +1,5 @@
 <template>
-  <section class="about_one">
+  <section class="about_one" id="wacaRegional">
     <div class="container">
       <div class="row">
         <div class="col-xl-6 col-lg-6">

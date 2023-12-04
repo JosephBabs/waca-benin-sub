@@ -15,7 +15,7 @@
               <h2>Need Help?</h2>
               <p>Speak with a human to filling out a form? call corporate office and we will connect
                 you with a team member who can help.</p>
-              <h3><span class="icon-phone-call"></span>666 888 0000</h3>
+              <h3><span class="icon-phone-call"></span>(+229)99 99 06 08</h3>
             </div>
             <div class="download_file_box">
               <a href="#"><i class="icon-pdf"></i>Download PDF File</a>

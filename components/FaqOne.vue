@@ -14,7 +14,7 @@
             <div class="faq_one_image"
                  style="background-image: url(/assets/images/resources/faq_one_img-1.jpg)">
               <div class="phone_number">
-                <p>If you have emergency call nows<a href="tel:888-999-0000">666 888 0000</a></p>
+                <p>If you have emergency call nows<a href="tel:(+229)99 99 06 08">(+229)99 99 06 08</a></p>
               </div>
             </div>
           </div>

@@ -76,7 +76,7 @@
               <div class="footer-widget_contact">
                 <p>66 Broklyn Street, New Town<br>DC 5752, New Yrok</p>
                 <a href="mailto:uigpwaca.infos@gouv.bj">uigpwaca.infos@gouv.bj</a><br>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:+22999990608">(+229)99 99 06 08</a>
                 <div class="site-footer__social">
                   <a href="#"><i class="fab fa-facebook-square"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>

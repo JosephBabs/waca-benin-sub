@@ -1,14 +1,12 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="About" />
+    <PageHeader title="A propos" />
+    <AboutOne />
     <AboutTwo />
+    <financement /> 
     <TestimonialFour />
-    <BrandOne />
-    <VideoOne />
-    <ProductOne />
-    <TeamOne />
-    <CallToActionOne />
+    <!-- <BrandOne /> -->
     <Footer />
   </div>
 </template>
@@ -18,7 +16,9 @@
   import Nav from "../components/Nav";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
+  import AboutOne from "../components/AboutOne";
   import AboutTwo from "../components/AboutTwo";
+  import Financement from "../components/financement";
   import TestimonialFour from "../components/TestimonialFour";
   import BrandOne from "../components/BrandOne";
   import VideoOne from "../components/VideoOne";
@@ -34,13 +34,15 @@
       BrandOne,
       TestimonialFour,
       AboutTwo,
+      Financement,
+      AboutOne,
       Footer,
       PageHeader,
       Nav
     },
     head(){
       return {
-        title: "WACA  | About"
+        title: "WACA  | A propos"
       }
     }
   }

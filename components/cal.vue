@@ -7,7 +7,9 @@
               <img src="/assets/images/resources/featured-leaf.png" alt=""><span>Calendrier d'intervention</span><img src="/assets/images/resources/featured-leaf.png" alt="">
             </div>
           </div>
-          <div style="overflow: scroll; display: block;">
+          <br>
+          <br>
+          <div style="overflow: scroll; width: 120%; height: auto; padding: 2em;  display: block;">
             <img src="/assets/images/cal.png" style="height:auto; width: 120%;" alt="">
           </div>
           
@@ -26,7 +28,7 @@
           </div>
           <br>
           <br>
-          <div style="overflow: scroll; display: block;">
+          <div style="overflow: scroll; width: 120%; height: auto; padding: 2em; display: block;">
             <img src="/assets/images/cart.png" style="height:auto; width: 130%; overflow: scroll;" alt="">
           </div>
           

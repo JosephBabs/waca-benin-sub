@@ -10,8 +10,8 @@
           <a href="mailto:needhelp@tripo.com"
             ><span class="icon-message"></span>uigpwaca.infos@gouv.bj</a
           >
-          <a href="tel:666-999-0000"
-            ><span class="icon-phone-call"></span>666 888 0000</a
+          <a href="tel:+22999990608"
+            ><span class="icon-phone-call"></span>(+229)99 99 06 08</a
           >
         </div>
         <div class="topbar-one__middle">

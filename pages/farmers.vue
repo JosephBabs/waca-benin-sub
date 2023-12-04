@@ -12,7 +12,7 @@
   import Nav from "../components/Nav";
   import PageHeader from "../components/PageHeader";
   import Farmers from "../components/Farmers";
-  import Footer from "../components/Footer";  
+  import Footer from "../components/Footer";   
   export default {
     components: {
       Footer,

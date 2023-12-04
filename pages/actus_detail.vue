@@ -1,8 +1,8 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="News" />
-    <actus />
+    <PageHeader title="Actualités" />
+    <BlogSingle />
     <Footer />
   </div>
 </template>
@@ -12,17 +12,17 @@
   import Nav from "../components/Nav";
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
-  import actus from "../components/actus";
+  import BlogSingle from "../components/BlogSingle";
   export default {
     components: {
-      actus,
+      BlogSingle,
       Footer,
       PageHeader,
       Nav
     },
     head(){
       return {
-        title: "WACA  | News"
+        title: "WACA  | Actualités"
       }
     }
   }

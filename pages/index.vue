@@ -4,8 +4,9 @@
     <Slider />
     <AboutOne />
     <ServiceOne />
-    <FeaturedOne />
+    <financement /> 
     <Cal />
+    <TestimonialFour />
     <BlogOne />
     <Footer />
   </div>
@@ -17,10 +18,11 @@ import Nav from "../components/Nav";
 import AboutOne from "../components/AboutOne";
 import ServiceOne from "../components/ServiceOne";
 import BrandOne from "../components/BrandOne";
-import FeaturedOne from "../components/FeaturedOne";
+import Financement from "../components/financement";
 import Cal from "../components/cal";
 import VideoOne from "../components/VideoOne";
 import TestimonialOne from "../components/TestimonialOne";
+import TestimonialFour from "../components/TestimonialFour";
 import RecentProject from "../components/RecentProject";
 import Benefits from "../components/Benefits";
 import ProductOne from "../components/ProductOne";
@@ -36,8 +38,9 @@ export default {
     Benefits,
     RecentProject,
     TestimonialOne,
+    TestimonialFour,
     VideoOne,
-    FeaturedOne,
+    Financement,
     Cal,
     BrandOne,
     ServiceOne,
