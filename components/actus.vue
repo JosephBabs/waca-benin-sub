@@ -7,7 +7,9 @@
             <div class="blog_one_image">
               <div class="blog_image">
                 <img
-                  src="/assets/images/blog/blog-1-img-1.jpg"
+                :src="
+                  'https://app.cmabenin.bj/web/public/storage/' + actu.cover
+                "
                   alt="Blog One Image"
                 />
                 <div class="blog_one_date_box">

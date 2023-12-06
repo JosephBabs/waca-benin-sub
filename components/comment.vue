@@ -1,13 +1,13 @@
 <template>
     <div>
-        <div class="comment-one" v-for="comment in comments" :key="comment.id">
-              <h3 class="comment-one__title">{{comment.comments_count}} Comments</h3> 
-              <div class="comment-one__single">
+        <div class="comment-one" >
+              <h3 class="comment-one__title">Comments</h3> 
+              <div class="comment-one__single" v-for="comment in comments" :key="comment.id">
                 <div class="comment-one__image">
                   <img src="/assets/images/blog/comment-1-1.png" alt="">
                 </div>
                 <div class="comment-one__content">
-                  <h3>{{comment.fullname}}</h3>
+                  <h3>{{comment.fullname}} <span> {{ calcDate(comment.created_at) }}</span></h3>
                   <p> {{comment.comment_description}}</p>
                   <!-- <a href="#" class="thm-btn comment-one__btn">Reply</a> -->
                 </div>
@@ -95,6 +95,7 @@ async function postData(url, data) {
 
   export default {
     
+    name: "Comment",
     data() {
     return {
       comments: [],
