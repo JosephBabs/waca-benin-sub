@@ -42,9 +42,9 @@ font-family: 'Amatic SC', cursive;*/
 :root {
   --thm-font: "montserrat", sans-serif, arial, tahoma, verdana;
   --heading-font: "montserrat", sans-serif, arial, tahoma, verdana;
-  --thm-base: #eddd5e;
+  --thm-base: #cace41;
   --thm-base-rgb: 237, 221, 94;
-  --thm-primary: #5b8c51;
+  --thm-primary: #cace41;
   --thm-primary-rgb: 91, 140, 81;
   --thm-black: #404a3d;
   --thm-black-rgb: 64, 74, 61;
