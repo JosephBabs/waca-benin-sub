@@ -3,16 +3,16 @@
     <div class="topbar-one">
       <div
         class="topbar_bg"
-        style="background-image: url(/assets/images/shapes/header-bg.png)"
+        style=""
       ></div>
       <div class="container">
         <div class="topbar-one__left">
           <a href="mailto:needhelp@tripo.com"
             ><span class="icon-message"></span>uigpwaca.infos@gouv.bj</a
           >
-          <a href="tel:+22999990608"
+          <!-- <a href="tel:+22999990608"
             ><span class="icon-phone-call"></span>(+229)99 99 06 08</a
-          >
+          > -->
         </div>
         <div class="topbar-one__middle">
           <a href="/" class="main-nav__logo">
@@ -20,6 +20,14 @@
               src="/assets/images/resources/logo.png"
               class="main-logo"
               alt="Awesome Image" style="height: auto; width: 10em;"
+            />
+          </a>
+
+          <a href="/" class="main-nav__logo">
+            <img
+              src="/assets/images/logo-bm.png"
+              class="main-logo"
+              alt="Awesome Image" style="height: auto; width: 20em;"
             />
           </a>
         </div>

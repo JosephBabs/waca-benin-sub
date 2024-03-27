@@ -86,7 +86,7 @@
                   <input type="email"
                     placeholder="E-mail"
                     name="email"
-                    v-model="form.email"/>
+                    />
                   <button type="submit" class="button"> 
                     <i class="fa fa-check"></i>
                   </button>

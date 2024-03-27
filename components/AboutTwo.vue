@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6">
           <div class="block-title text-left">
-            <p>WACA B2nin</p>
+            <p>WACA Bénin</p>
             <h3>LE PROJET WACA AU BENIN</h3>
             <div class="leaf">
               <img src="/assets/images/resources/leaf.png" alt="" />
