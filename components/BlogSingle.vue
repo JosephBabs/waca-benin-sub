@@ -7,11 +7,11 @@
             <div class="news_detail_image_box">
               <img
                 :src="
-                  'https://app.cmabenin.bj/web/public/storage/' + actu.cover
+                  'https://waca.uigp.bj/web/public/storage/' + actu.cover
                 "
                 alt=""
               />
-              <!-- <img :src="'https://app.cmabenin.bj/web/public/storage/'+actu.cover" alt=""> -->
+              <!-- <img :src="'https://waca.uigp.bj/web/public/storage/'+actu.cover" alt=""> -->
               <div class="news_detail_date_box">
                 <p>{{ formatDate(actu.created_at) }}</p>
               </div>
@@ -205,7 +205,7 @@ export default {
       const apiLink = dataT.apiUrl.link;
 
       const res = await fetch(
-        "https://app.cmabenin.bj/api/posts/" + this.$route.query.post
+        "https://waca.uigp.bj/api/posts/" + this.$route.query.post
       );
       const finalRes = await res.json();
       // console.log(finalRes.post);

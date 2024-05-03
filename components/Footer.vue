@@ -100,7 +100,7 @@
     <div class="site-footer_bottom">
       <div class="container">
         <div class="site-footer_bottom_copyright">
-          <p>&copy; Copyright {{ new Date().getFullYear() }} | Site réalisé par<a href="#"> La Gnose Plus Com</a> | +229 94 44 41 44</p>
+          <p>&copy; Copyright {{ new Date().getFullYear() }} | <a href="#"></a> | +229 94 44 41 44</p>
                 </div>
         <div class="site-footer_bottom_menu">
           <!-- <ul class="list-unstyled">

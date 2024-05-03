@@ -8,7 +8,7 @@
               <div class="blog_image">
                 <img
                 :src="
-                  'https://app.cmabenin.bj/web/public/storage/' + actu.cover
+                  'https://waca.uigp.bj/web/public/storage/' + actu.cover
                 "
                   alt="Blog One Image"
                 />
@@ -66,7 +66,7 @@ export default {
     async getData() {
       // const apiLink = data.apiUrl.link;
       // apiLink+
-      const res = await fetch("https://app.cmabenin.bj/api/posts");
+      const res = await fetch("https://waca.uigp.bj/api/posts");
       const finalRes = await res.json();
       this.news = finalRes.posts;
     },

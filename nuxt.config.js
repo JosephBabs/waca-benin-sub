@@ -34,6 +34,10 @@ export default {
 
     script: [
       { src: "/assets/plugins/glightbox/glightbox.min.js", body: true },
+      { src: "/assets/js/jquery.min.js", body: true },
+      { src: "/assets/js/jquery.counterup.min.js", body: true },
+      { src: "/assets/js/jquery.validate.min.js", body: true },
+      { src: "/assets/js/jquery.ajaxchimp.min.js", body: true }, 
       { src: "/assets/plugins/accordion/accordion.min.js", body: true }
     ]
   },

@@ -13,7 +13,7 @@
           <div class="blog_one_single wow fadeInUp" data-wow-delay="300ms">
             <div class="blog_one_image">
               <div class="blog_image">
-                <img :src="'https://app.cmabenin.bj/web/public/storage/'+actu.cover" alt="Blog One Image">
+                <img :src="'https://waca.uigp.bj/web/public/storage/'+actu.cover" alt="Blog One Image">
                 <div class="blog_one_date_box">
                   <p>{{formatDate(actu.created_at)}}</p>
                 </div>
@@ -54,7 +54,7 @@
       async getData() {
         // const apiLink = data.apiUrl.link;
         // apiLink+
-        const res = await fetch("https://app.cmabenin.bj/api/posts");
+        const res = await fetch("https://waca.uigp.bj/api/posts");
         const finalRes = await res.json();
         this.news = finalRes.posts;
       },
