@@ -120,7 +120,7 @@ async function postData(url, data) {
     
       async getData() {
         const apiLink = dataT.apiUrl.link;
-        const res = await fetch("https://waca.uigp.bj/api/posts/"+this.$route.query.post);
+        const res = await fetch("https://uigp.bj/api/wacaposts/"+this.$route.query.post);
         const finalRes = await res.json();
         // console.log(finalRes.post);
         // alert(apiLink + 'post/')

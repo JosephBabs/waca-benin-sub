@@ -66,7 +66,7 @@ export default {
     async getData() {
       // const apiLink = data.apiUrl.link;
       // apiLink+
-      const res = await fetch("https://waca.uigp.bj/api/posts");
+      const res = await fetch("https://uigp.bj/api/wacaposts");
       const finalRes = await res.json();
       this.news = finalRes.posts;
     },

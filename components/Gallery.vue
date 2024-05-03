@@ -119,14 +119,14 @@ export default {
     async getData() {
       // const mediaLink = data.postImg.link;
       // const apiLink = data.apiUrl.link;
-      const res = await fetch("https://waca.uigp.bj/api/galleries");
+      const res = await fetch("https://uigp.bj/api/galleries");
       const finalRes = await res.json();
       this.gallery = finalRes.galleries;
     },
     async getData1() {
       // const mediaLink = data.postImg.link;
       // const apiLink = data.apiUrl.link;
-      const res1 = await fetch( "https://waca.uigp.bj/api/video-galleries");
+      const res1 = await fetch( "https://uigp.bj/api/video-galleries");
       const finalRes1 = await res1.json();
       this.galleryV = finalRes1.galleries;
     },

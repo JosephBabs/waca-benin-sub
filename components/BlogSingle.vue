@@ -205,7 +205,7 @@ export default {
       const apiLink = dataT.apiUrl.link;
 
       const res = await fetch(
-        "https://waca.uigp.bj/api/posts/" + this.$route.query.post
+        "https://uigp.bj/api/wacaposts/" + this.$route.query.post
       );
       const finalRes = await res.json();
       // console.log(finalRes.post);
