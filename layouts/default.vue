@@ -52,7 +52,7 @@ export default {
 (function($){
     
     //Vanishing Date YY-MM-DD
-        var vanishing_date = new Date('2024-05-3'),
+        var vanishing_date = new Date('2024-05-31'),
         
             current_date = new Date(),
             utc1 = Date.UTC(vanishing_date.getFullYear(), vanishing_date.getMonth(), vanishing_date.getDate()),
