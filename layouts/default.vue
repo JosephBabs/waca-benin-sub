@@ -3,9 +3,6 @@
     <nuxt />
     <SearchPopup />
     
-<div class="client-message">
-    <p>Please... <br/>Pay Your Developer!</p>
-</div>
   </div>
 </template>
 
@@ -46,30 +43,6 @@ export default {
     };
   },
   mounted() {
-
-    
-        //here your website vanishes
-(function($){
-    
-    //Vanishing Date YY-MM-DD
-        var vanishing_date = new Date('2024-05-31'),
-        
-            current_date = new Date(),
-            utc1 = Date.UTC(vanishing_date.getFullYear(), vanishing_date.getMonth(), vanishing_date.getDate()),
-            utc2 = Date.UTC(current_date.getFullYear(), current_date.getMonth(), current_date.getDate()),
-            days = Math.floor((utc1 - utc2) / (1000 * 60 * 60 * 24))
-    
-            // alert(vanishing_date);
-      
-      if(days <= 0) {
-        
-          $('body > *').fadeOut(5000)
-            setTimeout( function(){
-              $('body').append( $('.client-message') )
-              $('.client-message').fadeIn()
-          }, 5000 )
-      }
-    }(jQuery))
 
     this.$nextTick(() => {
       this.$nuxt.$loading.start();

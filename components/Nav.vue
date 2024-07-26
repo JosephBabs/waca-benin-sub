@@ -25,9 +25,9 @@
 
           <a href="/" class="main-nav__logo">
             <img
-              src="/assets/images/logo-bm.png"
+              src="/assets/images/la-banque-mondiale-logo.png"
               class="main-logo"
-              alt="Awesome Image" style="height: auto; width: 20em;"
+              alt="Awesome Image" style="height: auto; width: 10em;"
             />
           </a>
         </div>
@@ -51,7 +51,7 @@
         <div class="container clearfix">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="main-nav__left">
-            <a
+            <!-- <a
               href="#"
               class="main-nav__search search-popup__toggler"
               @click="searchPopupStatusChange"
@@ -59,7 +59,7 @@
             ></a>
             <a href="#" class="side-menu__toggler">
               <i @click="mobileToggle = !mobileToggle" class="fa fa-bars"></i>
-            </a>
+            </a> -->
           </div>
           <div class="main-nav__main-navigation">
             <ul class="main-nav__navigation-box">
@@ -91,6 +91,9 @@
               <li class="dropdown">
                 <nuxt-link to="#">Plus +</nuxt-link>
                 <ul>
+                  <li>
+                    <nuxt-link to="/documenteque">Documentèque</nuxt-link>
+                  </li>
                   <li>
                     <nuxt-link to="#calendrierEtCartographie">Calendrier et Cartographie d'Intervention</nuxt-link>
                   </li>
