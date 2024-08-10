@@ -2,7 +2,7 @@
   <div>
     <footer class="site-footer site-footer_two">
       <div class="site-footer_farm_image site-footer_two_img"><img
-        src="assets/images/resources/site-footer-farm.png" alt="Farm Image"></div>
+        src="assets/images/resources/site-footer-farm.png" alt=""></div>
       <div class="container">
         <div class="row no-gutters">
           <div class="col-xl-4 col-lg-4 col-md-6">

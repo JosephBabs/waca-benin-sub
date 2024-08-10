@@ -1,12 +1,7 @@
 <template>
   <div>
     <footer class="site-footer">
-      <div class="site-footer_farm_image">
-        <img
-          src="/assets/images/resources/site-footer-farm.png"
-          alt="Farm Image"
-        />
-      </div>
+      
 
       <div class="container">
         <div class="row no-gutters">
@@ -100,7 +95,7 @@
     <div class="site-footer_bottom">
       <div class="container">
         <div class="site-footer_bottom_copyright">
-          <p>&copy; Copyright {{ new Date().getFullYear() }} | <a href="#"></a> | +229 94 44 41 44</p>
+          <p>&copy; Copyright {{ new Date().getFullYear() }} <a href="#"></a></p>
                 </div>
         <div class="site-footer_bottom_menu">
           <!-- <ul class="list-unstyled">

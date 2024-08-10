@@ -92,7 +92,7 @@
                 <nuxt-link to="#">Plus +</nuxt-link>
                 <ul>
                   <li>
-                    <nuxt-link to="/documenteque">Documentèque</nuxt-link>
+                    <nuxt-link to="/documenteque">Documenthèque</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link to="#calendrierEtCartographie">Calendrier et Cartographie d'Intervention</nuxt-link>
@@ -100,9 +100,8 @@
                   <li>
                     <nuxt-link to="#indicateursDeResultats">Indicateurs de Résultats</nuxt-link>
                   </li>
-                  <li>
-                    <nuxt-link to="/gallery">Galerie</nuxt-link>
-                  </li>
+                  <li><a href="https://www.flickr.com/photos/200339864@N02/albums/" target="_blank" rel="noopener noreferrer">Galerie</a></li>
+
                   <li>
                     <nuxt-link to="#partenaires">Ressources</nuxt-link>
                   </li>
